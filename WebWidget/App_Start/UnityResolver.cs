@@ -5,6 +5,10 @@
     using System.Collections.Generic;
     using System.Web.Http.Dependencies;
 
+    /// <summary>
+    /// Unity resolver implementation based on Microsoft documentation.
+    /// </summary>
+    /// <see cref="https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/dependency-injection"/>
     public class UnityResolver : IDependencyResolver
     {
         protected IUnityContainer Container;
